@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Ipm by deskinner</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Ipm</h1>
+        <p class="header">Integrated Performance Monitoring</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/deskinner/ipm/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/deskinner/ipm/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/deskinner/ipm">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/deskinner">deskinner</a></p>
+
+
+      </header>
+      <section>
+        <h3>Welcome to GitHub Pages.</h3>
+
+<p>IPM is a portable profiling infrastructure for parallel codes. It provides a low-overhead performance profile of the performance aspects and resource utilization in a parallel program. Communication, computation, and IO are the primary focus. While the design scope targets production computing in HPC centers, IPM has found use in application development, performance debugging and parallel computing education. The level of detail is selectable at runtime and presented through a variety of text and web reports.
+IPM has extremely low overhead, is scalable and easy to use requiring no source code modification. It runs on Cray XT.s, IBM SP's, most Linux clusters using MPICH/OPENMPI, SGI Altix and the Earth Simulator. IPM is available under an Open Source software license (LGPL). It is currently installed on several Teragrid, Department of Energy, and other supercomputing resources.
+IPM brings together several types of information important to developers and users of parallel HPC codes. The information is gathered in a way the tries to minimize the impact on the running code, maintaining a small fixed memory footprint and using minimal amounts of CPU. When the profile is generated the data from individual tasks is aggregated in a scalable way.
+For downloads, news, and other information, visit our Project Page. The monitors that IPM currently integrates are:
+MPI: communication topology and statistics for each MPI call and buffer size.
+HPM: PAPI (many) or PMAPI (AIX) performance events.
+Memory: wallclock, user and system timings.
+Switch: Communication volume and packet loss.
+File I/O: Data written and read to disk
+Aside from overall performance, reports are available for load balance, task topology, bottleneck detection, and message size distributions. Examples are sometimes better than explanation.
+The 'integrated' in IPM is multi-faceted. It refers to binding the above information together through a common interface and also the integration of the records from all the parallel tasks into a single report. At a high level we seek to integrate together the information useful to all stakeholders in HPC into a common interface that allows for common understanding. This includes application developers, science teams using applications, HPC managers, and system architects. IPM is a collaborative project between NERSC/LBL and SDSC. People involved in the project include David Skinner, Nicholas Wright, Karl Fuerlinger and Prof. Kathy Yelick at NERSC/LBNL and Allan Snavely at SDSC.</p>
+
+<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+
+<pre><code>$ cd your_repo_root/repo_name
+$ git fetch origin
+$ git checkout gh-pages
+</code></pre>
+
+<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+
+<h3>Designer Templates</h3>
+
+<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+
+<h3>Rather Drive Stick?</h3>
+
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+
+<h3>Authors and Contributors</h3>
+
+<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+
+<h3>Support or Contact</h3>
+
+<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
